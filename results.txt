@@ -1,0 +1,385 @@
+Mean Best Overall Accuracy across 10 successful folds: 0.9826
+Std Dev of Best Accuracy: 0.0202
+
+--- Detailed Results per Fold ---
+
+=== Fold 1 ===
+  Best Accuracy: 0.9383
+  Winning Preprocessing: Custom
+  Winning Method: IMV Semi-Greedy
+  Winning Config ID: imv_semigreedy_n3
+  Winning Config Description (f-keys): IMV Semi-Greedy (n=3)
+  Winning Ensemble Size: 3
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_339
+      Rank in Fold:                 1
+      Feature Combination (f-keys): f1 + f2 + f3 + f4 + f5
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9259
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_123
+      Rank in Fold:                 2
+      Feature Combination (f-keys): f5 + f6
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9136
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_147
+      Rank in Fold:                 17
+      Feature Combination (f-keys): f1 + f2 + f6
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.8889
+      Num Features Used:            250
+    ---------------------------------
+
+=== Fold 2 ===
+  Best Accuracy: 1.0000
+  Winning Preprocessing: Standard
+  Winning Method: IMV Semi-Greedy
+  Winning Config ID: imv_semigreedy_n3
+  Winning Config Description (f-keys): IMV Semi-Greedy (n=3)
+  Winning Ensemble Size: 3
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_191
+      Rank in Fold:                 1
+      Feature Combination (f-keys): f2 + f3 + f4
+      Feature Selection:            chi2
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9630
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_237
+      Rank in Fold:                 3
+      Feature Combination (f-keys): f3 + f5 + f6
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9630
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_221
+      Rank in Fold:                 40
+      Feature Combination (f-keys): f2 + f5 + f6
+      Feature Selection:            chi2
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9383
+      Num Features Used:            250
+    ---------------------------------
+
+=== Fold 3 ===
+  Best Accuracy: 1.0000
+  Winning Preprocessing: Standard
+  Winning Method: IMV Semi-Greedy
+  Winning Config ID: imv_semigreedy_n3
+  Winning Config Description (f-keys): IMV Semi-Greedy (n=3)
+  Winning Ensemble Size: 3
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_81
+      Rank in Fold:                 1
+      Feature Combination (f-keys): f2 + f5
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9877
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_37
+      Rank in Fold:                 3
+      Feature Combination (f-keys): f1 + f2
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9753
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_367
+      Rank in Fold:                 85
+      Feature Combination (f-keys): f2 + f3 + f4 + f5 + f6
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9383
+      Num Features Used:            250
+    ---------------------------------
+
+=== Fold 4 ===
+  Best Accuracy: 0.9877
+  Winning Preprocessing: Standard
+  Winning Method: Single
+  Winning Config ID: config_225
+  Winning Config Description (f-keys): f3 + f4 + f5
+  Winning Feature Combination (f-keys): f3 + f4 + f5
+  Winning Feature Selection:   relief
+  Winning Classifier:          knn
+  Winning Classifier Params:   {'k': 1, 'metric': 'cityblock'}
+  Num Features Used:           250
+
+=== Fold 5 ===
+  Best Accuracy: 0.9877
+  Winning Preprocessing: Standard
+  Winning Method: IMV Semi-Greedy
+  Winning Config ID: imv_semigreedy_n3
+  Winning Config Description (f-keys): IMV Semi-Greedy (n=3)
+  Winning Ensemble Size: 3
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_145
+      Rank in Fold:                 3
+      Feature Combination (f-keys): f1 + f2 + f6
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9383
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_367
+      Rank in Fold:                 25
+      Feature Combination (f-keys): f2 + f3 + f4 + f5 + f6
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9259
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_189
+      Rank in Fold:                 47
+      Feature Combination (f-keys): f2 + f3 + f4
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9136
+      Num Features Used:            250
+    ---------------------------------
+
+=== Fold 6 ===
+  Best Accuracy: 0.9877
+  Winning Preprocessing: Custom
+  Winning Method: IMV Semi-Greedy
+  Winning Config ID: imv_semigreedy_n3
+  Winning Config Description (f-keys): IMV Semi-Greedy (n=3)
+  Winning Ensemble Size: 3
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_219
+      Rank in Fold:                 3
+      Feature Combination (f-keys): f2 + f5 + f6
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9506
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_5
+      Rank in Fold:                 15
+      Feature Combination (f-keys): f1
+      Feature Selection:            chi2
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9259
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_35
+      Rank in Fold:                 67
+      Feature Combination (f-keys): f6
+      Feature Selection:            chi2
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9012
+      Num Features Used:            250
+    ---------------------------------
+
+=== Fold 7 ===
+  Best Accuracy: 1.0000
+  Winning Preprocessing: Custom
+  Winning Method: IMV Semi-Greedy
+  Winning Config ID: imv_semigreedy_n3
+  Winning Config Description (f-keys): IMV Semi-Greedy (n=3)
+  Winning Ensemble Size: 3
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_81
+      Rank in Fold:                 1
+      Feature Combination (f-keys): f2 + f5
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9753
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_85
+      Rank in Fold:                 2
+      Feature Combination (f-keys): f2 + f6
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9753
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_165
+      Rank in Fold:                 7
+      Feature Combination (f-keys): f1 + f3 + f6
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9630
+      Num Features Used:            250
+    ---------------------------------
+
+=== Fold 8 ===
+  Best Accuracy: 0.9625
+  Winning Preprocessing: Custom
+  Winning Method: IMV Sorted k
+  Winning Config ID: imv_sorted_k5
+  Winning Config Description (f-keys): IMV Sorted Top 5
+  Winning Ensemble Size: 5
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_235
+      Rank in Fold:                 1
+      Feature Combination (f-keys): f3 + f5 + f6
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9250
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_241
+      Rank in Fold:                 2
+      Feature Combination (f-keys): f4 + f5 + f6
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9250
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_291
+      Rank in Fold:                 3
+      Feature Combination (f-keys): f1 + f3 + f4 + f6
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9250
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_9
+      Rank in Fold:                 4
+      Feature Combination (f-keys): f2
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9125
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_27
+      Rank in Fold:                 5
+      Feature Combination (f-keys): f5
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9125
+      Num Features Used:            250
+    ---------------------------------
+
+=== Fold 9 ===
+  Best Accuracy: 1.0000
+  Winning Preprocessing: Standard
+  Winning Method: IMV Sorted k
+  Winning Config ID: imv_sorted_k5
+  Winning Config Description (f-keys): IMV Sorted Top 5
+  Winning Ensemble Size: 5
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_163
+      Rank in Fold:                 1
+      Feature Combination (f-keys): f1 + f3 + f6
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9875
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_175
+      Rank in Fold:                 2
+      Feature Combination (f-keys): f1 + f4 + f6
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9875
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_43
+      Rank in Fold:                 3
+      Feature Combination (f-keys): f1 + f3
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9750
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_49
+      Rank in Fold:                 4
+      Feature Combination (f-keys): f1 + f4
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9750
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_67
+      Rank in Fold:                 5
+      Feature Combination (f-keys): f2 + f3
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9750
+      Num Features Used:            250
+    ---------------------------------
+
+=== Fold 10 ===
+  Best Accuracy: 0.9625
+  Winning Preprocessing: Custom
+  Winning Method: IMV Semi-Greedy
+  Winning Config ID: imv_semigreedy_n3
+  Winning Config Description (f-keys): IMV Semi-Greedy (n=3)
+  Winning Ensemble Size: 3
+  Winning Ensemble Components:
+    ---------------------------------
+    Component ID: config_105
+      Rank in Fold:                 1
+      Feature Combination (f-keys): f3 + f6
+      Feature Selection:            relief
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.9125
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_25
+      Rank in Fold:                 83
+      Feature Combination (f-keys): f5
+      Feature Selection:            nca
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.8750
+      Num Features Used:            250
+    ---------------------------------
+    Component ID: config_59
+      Rank in Fold:                 86
+      Feature Combination (f-keys): f1 + f5
+      Feature Selection:            chi2
+      Classifier:                   knn
+      Classifier Params:            {'k': 1, 'metric': 'cityblock'}
+      Individual Accuracy:          0.8750
+      Num Features Used:            250
+    ---------------------------------
